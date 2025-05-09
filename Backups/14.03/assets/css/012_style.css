@@ -1,0 +1,135 @@
+
+
+article{
+    
+    justify-content: center;
+    margin: 2rem;
+}
+
+
+.mac{
+    background-color: rgb(177, 177, 177);
+    height: 50svw;
+    width: 62svw;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    
+
+}
+
+.mac-rand{
+    background-color: rgb(121, 121, 121);
+    height: 48svw;
+    width: 60svw;
+
+    border:solid rgb(66, 66, 66) 3px;
+
+
+    display: flex;
+    align-content: start;
+    justify-content: center;
+    align-items: start;
+
+    border-radius: 30px;
+    
+
+}
+.mac_screen{
+
+   
+    height: 47.5svw;
+    width: 59svw;
+
+
+    
+    
+
+    
+    
+
+    border-left: 9svw solid gray;
+    border-right: 9svw solid gray;
+    
+    border-top: 9svw solid rgb(67, 67, 67);
+    border-bottom: 9svw solid rgb(228, 226, 226);
+    border-radius: 20px;
+
+    
+    
+
+   
+
+}
+
+.screen_innen{
+    height: 35svw;
+    width: 45svw;
+
+    margin-top: -3vw;
+    margin-left: -2vw;
+   
+
+    border-left: 1svw solid gray;
+    border-right: 1svw solid gray;
+    
+    border-top: 1svw solid rgb(4, 4, 4);
+    border-bottom: 1svw solid rgb(228, 226, 226);
+    outline-offset: -10px;
+
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+
+    border-radius: 100px;
+
+    background-color: rgb(255, 255, 255);
+    
+    
+
+}
+.mac_logo{
+    
+    background-image: url(/assets/img/01_img/applelogo84.png);
+    background-size: 2.3svw;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 6.5svh;
+    width: 3.5svw;
+
+    position: absolute;
+    top: 75svh;
+    left: 35svw;
+
+    border-left: .3svw solid gray;
+    border-right: .3svw solid gray;
+    
+    border-top: .3svw solid rgb(67, 67, 67);
+    border-bottom: .3svw solid rgb(228, 226, 226);
+    background-color: white;
+    
+}
+
+.mac_disc{
+    position: absolute;
+    top: 75svh;
+    left: 50svw;
+
+    height: 2svh;
+    width: 17svw;
+
+    border-left: .3svw solid gray;
+    border-right: .3svw solid gray;
+    
+    border-top: .3svw solid rgb(67, 67, 67);
+    border-bottom: .3svw solid rgb(228, 226, 226);
+    background-color: rgb(0, 0, 0);
+    
+}

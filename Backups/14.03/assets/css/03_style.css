@@ -1,0 +1,99 @@
+/* body {
+    width: 100svw;
+} */
+
+h1 {
+   color: black;
+    font-size: 4vw;
+    font-family: Monaco;
+}
+
+header{
+     position: absolute;
+    z-index: 15;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+main {
+    position: absolute;
+    top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(10, 7vw);
+    overflow:hidden;
+}
+
+#pixelgrid {
+
+    position: absolute;
+    top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(25, 1vw);
+    
+}
+#stageOne{
+    
+    opacity: 1;
+  
+mix-blend-mode:normal;
+}
+
+#stageTwo{
+   
+    opacity: 0;
+    
+}
+#stageThree{
+ 
+    opacity: 0;
+   
+}
+#stageFour{
+   
+    opacity: 0;
+  
+
+    
+}
+
+#stageFour > article {
+color: green;
+
+}
+
+article{
+    width: 18vw;
+    overflow: show;
+}
+
+article > p {
+    width: 20vw;
+    font-size: 1.2vw;
+    font-family: Monaco;
+    
+}
+
+.pattern{
+    width: 30vw;
+    height:fit-content;
+    font-size: 3vw;
+    overflow:hidden;
+    color: black;
+}
+
+.stars{
+    color: rgb(179, 179, 179);
+    font-size: 8vw;
+    mix-blend-mode:difference;
+    width: 35vw;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    z-index: 5;
+}

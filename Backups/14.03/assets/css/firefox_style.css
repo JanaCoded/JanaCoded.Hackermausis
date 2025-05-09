@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    background-image: url(/assets/img/index/firefox.gif);
+    font-family: ComicSans;
+}
+
+
+h1 {
+    font-size: 5vw;
+    color: white
+}
+
+p {
+    color: white
+}
+
+li{
+list-style: inside;
+color: white
+
+}
